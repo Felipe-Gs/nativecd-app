@@ -1,3 +1,4 @@
+import Skils from "@/components/Skils";
 import User from "@/components/User";
 import { View, Text, Image } from "react-native";
 
@@ -9,7 +10,10 @@ export function Profile() {
             className="w-full h-52 -mb-16"
          />
 
-         <User />
+         <View className="flex-1 px-4 pb-4">
+            <User />
+            <Skils />
+         </View>
       </View>
    );
 }
