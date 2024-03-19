@@ -8,7 +8,7 @@ export default function App() {
    return (
       <>
          <Profile />
-         <StatusBar style="auto" />
+         <StatusBar style="light" />
       </>
    );
 }
